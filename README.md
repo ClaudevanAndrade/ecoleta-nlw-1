@@ -1,6 +1,6 @@
 <div align="center">
   <h1>Ecoleta</h1>
-  <p>Projeto com proposta de criar uma rede de pontos reciclagens.</p>
+  <p>Projeto com proposta de criar uma rede de pontos de reciclagem.</p>
   <img src="./design/desktop.png" alt="Logo" width="800">
 </div>
 
