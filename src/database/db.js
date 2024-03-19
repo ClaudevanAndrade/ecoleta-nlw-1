@@ -38,7 +38,7 @@ db.serialize(() => {
         "N° 260",
         "Santa Catarina",
         "Rio do Sul",
-        "Residuos Eletronicos, Lampadas"
+        "Resíduos Eletrônicos, Lampadas"
     ]
 
     function afterInsertData(err) {
@@ -56,7 +56,7 @@ db.serialize(() => {
         if (err) {
             return console.log(err)
         }
-        console.log('Aqui estao seus registros')
+        console.log('Aqui estão seus registros')
         console.log(rows)
     })
 

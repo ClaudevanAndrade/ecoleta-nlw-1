@@ -4,7 +4,7 @@ function populateUFs() {
     fetch("https://servicodados.ibge.gov.br/api/v1/localidades/estados")
         .then(res => res.json())
         .then(states => {
-            for( const state of states) {
+            for (const state of states) {
                 ufSelect.innerHTML += `<option value="${state.id}">${state.nome}</option>`
             }
         })
@@ -16,7 +16,7 @@ function getCities(event) {
     const citySelect = document.querySelector("select[name=city]")
     const stateInput = document.querySelector("input[name=state]")
     const ufValue = event.target.value
-    
+
     const indexOfSelectedState = event.target.selectedIndex
     stateInput.value = event.target.options[indexOfSelectedState].text
 
@@ -28,8 +28,8 @@ function getCities(event) {
     fetch(url)
         .then(res => res.json())
         .then(cities => {
-            
-            for( const city of cities) {
+
+            for (const city of cities) {
                 citySelect.innerHTML += `<option value="${city.nome}">${city.nome}</option>`
             }
 
@@ -58,13 +58,13 @@ function handleSelectedItem(event) {
 
     const itemId = event.target.dataset.id
 
-    const alereadySelected =  selectedItems.findIndex((item) =>{
+    const alreadySelected = selectedItems.findIndex((item) => {
         const itemFound = item == itemId
-        return itemFound 
+        return itemFound
     })
 
-    if(alereadySelected >= 0){
-        const filterItems = selectedItems.filter((item) =>{
+    if (alreadySelected >= 0) {
+        const filterItems = selectedItems.filter((item) => {
             const itemIsDifferent = item != itemId
             return false
         })
@@ -73,6 +73,6 @@ function handleSelectedItem(event) {
     } else {
         selectedItems.push(itemId)
     }
-   
+
     collectedItems.value = selectedItems
 }
