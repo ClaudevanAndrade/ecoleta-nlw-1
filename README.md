@@ -56,7 +56,7 @@ Projeto com proposta de criar uma rede de pontos reciclagens, auxiliando as pess
   $ cd ./ecoleta-nlw-1
 
   # Instalar as dependências:
-  $ yarn --frozen-lockfile
+  $ yarn install
 
   # Executar
   $ yarn start
