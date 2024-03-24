@@ -58,7 +58,7 @@ Projeto com proposta de criar uma rede de pontos reciclagens, auxiliando as pess
   # Instalar as dependências:
   $ yarn install
 
-  # Executar
+  # Executar:
   $ yarn start
 ```
 
