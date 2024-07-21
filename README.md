@@ -1,6 +1,6 @@
 <div align="center">
   <h1>Ecoleta</h1>
-  <p>Projeto com proposta de criar uma rede de pontos reciclagens.</p>
+  <p>Projeto com proposta de criar uma rede de pontos de reciclagem, utilizando servidor web, banco de dados e template engine.</p>
   <img src="./design/desktop.png" alt="Logo" width="800">
 </div>
 
@@ -16,7 +16,7 @@
 * [Licença](#licença)
 
 # 📃 <span id="descrição">Descrição</span>
-Projeto com proposta de criar uma rede de pontos reciclagens, auxiliando as pessoas a encontrarem pontos de coleta de forma eficiente. Projeto proposto pela [**@Rocketseat**](https://github.com/Rocketseat) na Next Level Week#1.
+Projeto com proposta de criar uma rede de pontos reciclagens, auxiliando as pessoas a encontrarem pontos de coleta de forma eficiente. Projeto proposto pela [**@Rocketseat**](https://github.com/Rocketseat) na Next Level Week#1, utilizando servidor web, banco de dados e template engine.
 
 # 📌 <span id="requisitos">Requisitos Funcionais</span>
 - [x] Cadastro de pontos<br>
@@ -52,8 +52,14 @@ Projeto com proposta de criar uma rede de pontos reciclagens, auxiliando as pess
 # 🚀 <span id="instalação">Instalação</span>
 ```bash
   # Clone este repositório:
-  $ git clone https://github.com/CleilsonAndrade/ecoleta-nlw-1
+  $ git clone https://github.com/CleilsonAndrade/ecoleta-nlw-1.git
   $ cd ./ecoleta-nlw-1
+
+  # Instalar as dependências:
+  $ yarn install
+
+  # Executar:
+  $ yarn start
 ```
 
 # 📝 <span id="licença">Licença</span>
