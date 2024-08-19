@@ -52,8 +52,8 @@ Projeto com proposta de criar uma rede de pontos reciclagens, auxiliando as pess
 # 🚀 <span id="instalação">Instalação</span>
 ```bash
   # Clone este repositório:
-  $ git clone https://github.com/CleilsonAndrade/ecoleta-nlw-1.git
-  $ cd ./ecoleta-nlw-1
+  $ git clone https://github.com/CleilsonAndrade/ecoleta.git
+  $ cd ./ecoleta
 
   # Instalar as dependências:
   $ yarn install
